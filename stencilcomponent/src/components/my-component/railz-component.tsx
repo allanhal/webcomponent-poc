@@ -16,6 +16,12 @@ export class RailzComponent {
   }
 
   render() {
-    return <div>Hello, World! I'm {this.getText()}</div>;
+    return (
+      <div>
+        <p>P</p>
+        <div>Hello, World! I'm {this.getText()}</div>
+        <h2>h2</h2>
+      </div>
+    );
   }
 }
